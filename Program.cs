@@ -46,7 +46,7 @@ namespace KTree
                     }
                     catch (Exception ex)
                     {
-                        folder_file.Add("Created a Error! Directory = " + targetfolder + "Error = " + ex.Message + ex.Source);
+                        folder_file.Add("Created a Error! Directory = " + targetfolder + " Error = " + ex.Message + ex.Source);
                     }
                     fflength++;
                 }
@@ -67,7 +67,7 @@ namespace KTree
                     }
                     catch (Exception ex)
                     {
-                        folder_file.Add("Created a Error! Directory = " + targettfolder + "Error = " + ex.Message + ex.Source);
+                        folder_file.Add("Created a Error! Directory = " + targettfolder + " Error = " + ex.Message + ex.Source);
 
                     }
                     fflengthtwo++;
