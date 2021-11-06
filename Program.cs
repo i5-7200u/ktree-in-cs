@@ -10,12 +10,20 @@ namespace KTree
     {
         static void Main(string[] args)
         {
-            List<string> qwe = kcstree("C:\\Users\\Administrator\\Desktop\\Updates");
+            Console.WriteLine("Write the to be listed subdirectorys and subfiles directory");
+            List<string> qwe = kcstree(Console.ReadLine());
+            Console.Clear();
+            Console.WriteLine("Listed subdirectorys and subfiles");
             foreach (string gff in qwe)
             {
                 Console.WriteLine(gff);
             }
             int ah = 5;
+            for(int i = 0; i<1; i++)
+            {
+                Console.WriteLine("\n");
+            }
+            Console.WriteLine("Press E to Exit apllication");
             while (ah < 6)
             {
                 ConsoleKeyInfo aw = Console.ReadKey();
