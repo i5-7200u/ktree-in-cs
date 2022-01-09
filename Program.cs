@@ -19,7 +19,7 @@ namespace KTree
                 Console.WriteLine(gff);
             }
             int ah = 5;
-            for(int i = 0; i<1; i++)
+            for (int i = 0; i < 1; i = i +1)
             {
                 Console.WriteLine("\n");
             }
@@ -56,7 +56,7 @@ namespace KTree
                     {
                         folder_file.Add("Created a Error! Directory = " + targetfolder + " Error = " + ex.Message + ex.Source);
                     }
-                    fflength++;
+                    fflength = fflength + 1;
                 }
                 int fflengthtwo = 0;
                 int savedfflength = folder_file.Count - 1;
@@ -78,7 +78,7 @@ namespace KTree
                         folder_file.Add("Created a Error! Directory = " + targettfolder + " Error = " + ex.Message + ex.Source);
 
                     }
-                    fflengthtwo++;
+                    fflengthtwo = fflengthtwo + 1;
                 }
             }
             else
